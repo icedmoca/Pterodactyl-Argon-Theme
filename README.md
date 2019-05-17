@@ -1,5 +1,5 @@
 
-## How do i use this for my pterodactyl panel?
+## How do i use this for my Pterodactyl Panel?
 The theme has a small code snippet (build.sh) that you must install into `/var/www/html/pterodactyl/`
 
 ## Steps to install:
@@ -19,3 +19,5 @@ If theres something you want added, just head over to the issues tab and type aw
 
 ## Themes Ready for you to use:
 `minenite`
+
+https://pterodactyl.io/panel/configuration.html
