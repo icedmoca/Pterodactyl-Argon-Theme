@@ -21,7 +21,7 @@ if [ ! -f "artisan" ]; then
     zip -r PterodactylBackup-$(date +"%Y-%m-%d").zip public resources 2> /dev/null
 
     echo "Downloading the Theme you picked"
-    mkdir -p tempdown && cd tempdown && git clone https://github.com/TheFonix/Pterodactyl-Themes.git .
+    mkdir -p tempdown && cd tempdown && git clone https://github.com/icedmoca/paneltheme.git .
     cp -r MasterThemes/TangoTwist/public ..
     cp -r MasterThemes/TangoTwist/resources ..
 
