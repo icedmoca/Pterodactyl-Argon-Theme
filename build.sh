@@ -22,8 +22,8 @@ if [ ! -f "artisan" ]; then
 
     echo "Downloading the Theme you picked"
     mkdir -p tempdown && cd tempdown && git clone https://github.com/icedmoca/paneltheme.git .
-    cp -r MasterThemes/TangoTwist/public ..
-    cp -r MasterThemes/TangoTwist/resources ..
+    cp -r Master/public ..
+    cp -r Master/resources ..
 
     echo "Files have been copied over!"
     sleep 2
