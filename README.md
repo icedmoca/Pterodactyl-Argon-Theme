@@ -1,5 +1,5 @@
 
-## How do i use this for my Pterodactyl Panel?
+## How do I use this for my Pterodactyl Panel?
 The theme has a small code snippet (build.sh) that you must install into `/var/www/html/pterodactyl/`
 
 ## Steps to install:
