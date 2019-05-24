@@ -20,6 +20,6 @@ The implementation command will take a backup of your current panel in case anyt
 If theres something you want added, just head over to the issues tab and type away.
 
 ## Themes Ready for you to use:
-`minenite`
+`argon`
 
 https://pterodactyl.io/panel/configuration.html
