@@ -33,5 +33,5 @@ if [ ! -f "artisan" ]; then
     cd .. && rm -rf tempdown
 
     echo "Complete! Have a good day and dont forget to refresh your browser cache! (CTRL + F5)"
-    echo "-Will"
+    echo "- MineNite Panel"
 fi
