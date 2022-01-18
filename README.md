@@ -2,6 +2,9 @@
 ## How do I use this for my Pterodactyl Panel?
 The theme has a small code snippet (build.sh) that you must install into `/var/www/pterodactyl`
 
+## Image:
+![example](https://github.com/minenite/paneltheme/blob/master/Pterodactyl.png?raw=true)
+
 ## Steps to install:
 1. Download or make the file build.sh in the /var/www/pterodactyl dir
 2. Make sure the build.sh has permissions to run `chmod +x /var/www/pterodactyl/build.sh`
