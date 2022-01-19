@@ -1,27 +1,33 @@
+# :bird: Panel Theme
 
-## How do I use this for my Pterodactyl Panel?
-The theme has a small code snippet (build.sh) that you must install into `/var/www/pterodactyl`
+> Pterodactyl Panel Theme & Customization
 
-## Image:
 ![example](https://github.com/minenite/paneltheme/blob/master/Pterodactyl.png?raw=true)
 
-## Steps to install:
-1. Download or make `build.sh` in `/var/www/pterodactyl`
-2. Make sure the build.sh has permissions to run `chmod +x /var/www/pterodactyl/build.sh`
-3. Run `./build.sh` in `/var/www/pterodactyl`
-4. Modify the .env file `nano /var/www/pterodactyl/.env` change pterodactyltheme to `argon`
-5. Run these commands after you saved the file: `php artisan theme:refresh-cache` `php artisan view:clear`
-6. Refresh the browser `CTRL+F5` Success.
-## FAQ:
-What if this script doesn't work? A:
-The implementation command will take a backup of your current panel in case anything goes wrong during the theme change! So you don't need to worry about losing anything you've already made!
+
+## Installation:
+
+
+1. Login root
+
+2. Run
+`cd /var/www/pterodactyl && wget https://raw.githubusercontent.com/icedmoca/paneltheme/master/build.sh && chmod +x /var/www/pterodactyl/build.sh && ./build.sh`
+
+3. Refresh the browser `CTRL+F5` Success.
+
+### FAQ:
+- What if this script doesn't work? A:
+The implementation command will take a backup of your current panel in case anything goes wrong during the theme change! So you don't need to worry about losing anything you've already made! Saves in `/dev/null`
 
 
 
-## Suggestions
+### Suggestions
 If theres something you want added, just head over to the issues tab and type away.
 
-## Themes Ready for you to use:
-`argon`
+###Todo
 
-https://pterodactyl.io/panel/configuration.html
+- [X] Light mode.
+- [ ] Dark mode.
+- [ ] Custom color customization built into admin panel.
+- [ ] Per user color customization permissions.
+- [ ] Custom header image support.
