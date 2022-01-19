@@ -32,6 +32,11 @@ if [ ! -f "artisan" ]; then
 
     cd .. && rm -rf tempdown
 
+    sed -i 's/APP_THEME=pterodactyl/APP_THEME=argon/g' /var/www/pterodactyl/.env
+    echo "Changed theme to argon in .env"
+
+    php artisan theme:refresh-cache
+    php artisan view:clear
+    echo "Refreshed theme cache and view clear"
     echo "Complete! Have a good day and dont forget to refresh your browser cache! (CTRL + F5)"
-    echo "- MineNite Panel"
 fi
