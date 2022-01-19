@@ -24,7 +24,7 @@ The implementation command will take a backup of your current panel in case anyt
 ### Suggestions
 If theres something you want added, just head over to the issues tab and type away.
 
-###Todo
+### Todo
 
 - [X] Light mode.
 - [ ] Dark mode.
