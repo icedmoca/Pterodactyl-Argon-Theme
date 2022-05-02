@@ -1,6 +1,7 @@
 # Deprecated ❌ :bird: Panel Theme 
 
 > Pterodactyl Panel Theme & Customization
+
 > Supported until pterodactyl version: v1.3.0
 
 ![example](https://github.com/minenite/paneltheme/blob/master/Pterodactyl.png?raw=true)
