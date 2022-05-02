@@ -1,6 +1,7 @@
-# :bird: Panel Theme
+# Deprecated ❌ :bird: Panel Theme 
 
 > Pterodactyl Panel Theme & Customization
+> Supported until pterodactyl version: v1.3.0
 
 ![example](https://github.com/minenite/paneltheme/blob/master/Pterodactyl.png?raw=true)
 
@@ -18,16 +19,3 @@
 ### FAQ:
 - What if this script doesn't work? A:
 The implementation command will take a backup of your current panel in case anything goes wrong during the theme change! So you don't need to worry about losing anything you've already made! Saves in `/dev/null`
-
-
-
-### Suggestions
-If theres something you want added, just head over to the issues tab and type away.
-
-### Todo
-
-- [X] Light mode.
-- [ ] Dark mode.
-- [ ] Custom color customization built into admin panel.
-- [ ] Per user color customization permissions.
-- [ ] Custom header image support.
