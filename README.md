@@ -13,7 +13,7 @@
 1. Login root
 
 2. Run
-`cd /var/www/pterodactyl && wget https://raw.githubusercontent.com/icedmoca/paneltheme/master/build.sh && chmod +x /var/www/pterodactyl/build.sh && ./build.sh`
+`cd /var/www/pterodactyl && wget https://raw.githubusercontent.com/icedmoca/Pterodactyl-Argon-Theme/master/build.sh && chmod +x /var/www/pterodactyl/build.sh && ./build.sh`
 
 3. Refresh the browser `CTRL+F5` Success.
 
